@@ -28,6 +28,11 @@ function getAge(birthdayValue) {
         age--; // the age is decremented by 1 
     }
 
+    // happy birthday message
+    if ( month === 0 && currentDate.getDate() === birthdayDate.getDate()) {
+        alert("Happy Birthday 🥳🥳🥳")
+    }
+
     return age;
 }
 
